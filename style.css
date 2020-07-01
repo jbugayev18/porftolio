@@ -1,0 +1,96 @@
+header {
+    display: flex; 
+    justify-content: center; 
+    background-color: #6A5ACD; 
+    margin-bottom: 40px;
+}
+
+header h1 {
+    color: #FFD700; 
+    text-align: center; 
+    margin: 0; 
+    padding-top: 20px;
+}
+
+header h2 { 
+    color: #FFD700; 
+    text-align: center; 
+    margin: 0; 
+    padding-top: 20px; 
+}
+
+header nav ul {
+    display: flex;
+    padding-left: 0; 
+    list-style: none;  
+}
+
+header nav ul li a{ 
+    color: #FFFAFA; 
+    text-decoration: none; 
+    margin: 0 20px 0 0; 
+
+}
+
+.bio-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.close-up{
+    display:flex;
+    width: 100%;
+}
+
+.item1 { 
+    flex:1; 
+    margin: 10px; 
+}
+
+.item-dounle { 
+    flex:2;
+    margain: 10px; 
+}
+
+.group2, .group3, .group5 { 
+    text-align: center;
+    flex-direction: column; 
+
+}
+
+/* -- Not working hmmm -- */
+
+.h5 { 
+    text-align: center; 
+}
+
+.group4 {
+    display: flex; 
+    align-items: center;
+    flex-direction: column; 
+    justify-content: space-evenly;
+
+}
+
+.group5 nav ul {
+    text-align: center; 
+    text-decoration: none; 
+    list-style: none;
+    
+}
+
+/* -- Desktop -- */
+
+@media all and (min-width: 800px){
+    main {
+        padding: 0 10%; 
+    }
+}
+
+.group4{ 
+    flex-direction: row; 
+    
+}
